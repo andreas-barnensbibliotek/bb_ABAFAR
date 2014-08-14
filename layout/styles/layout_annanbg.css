@@ -1,0 +1,672 @@
+html {
+     overflow-y: scroll;
+}
+
+body {
+     background-color: #C0E38A;
+     background-image: url("/barnensbibliotekdev/Portals/_default/Skins/barnensbibl_responsiveskin_v3/images/6_9Officiell2.jpg");
+     color: #919191;
+     font-size: 12px;
+     margin: 0px;
+     padding: 0px;
+}
+
+body.boxed {
+     background-color: #000000;
+     color: #919191;
+}
+
+.justify {
+     text-align: justify;
+}
+
+.bold {
+     font-weight: bold;
+}
+
+.center {
+     text-align: center;
+}
+
+.right {
+     text-align: right;
+}
+
+.uppercase {
+     text-transform: uppercase;
+}
+
+.hidden {
+     display: none;
+}
+
+.clear {
+     clear: both;
+     display: block;
+}
+
+.clear:after {
+     clear: both;
+     content: "";
+     display: block;
+     font-size: 0px;
+     height: 0px;
+     visibility: hidden;
+}
+
+a {
+     color: #FF9900;
+     outline: medium none;
+     text-decoration: none;
+}
+
+.fl_left {
+     float: left;
+}
+
+.fl_right {
+     float: right;
+}
+
+img {
+     border: medium none;
+     height: auto;
+     line-height: normal;
+     margin: 0px;
+     max-width: 100%;
+     padding: 0px;
+     vertical-align: middle;
+     width: auto;
+}
+
+.boxholder {
+     border: 1px solid #D6D6D6;
+     padding: 9px;
+}
+
+.imgl {
+     clear: left;
+     float: left;
+     margin: 0px 15px 10px 0px;
+}
+
+.imgr {
+     clear: right;
+     float: right;
+     margin: 0px 0px 10px 15px;
+}
+
+address, article, aside, figcaption, figure, footer, header, hgroup, nav, section {
+     display: block;
+     margin: 0px;
+     padding: 0px;
+}
+
+.video {
+     display: block;
+     height: 0px;
+     margin: 0px;
+     padding: 0px 0px 56.25%;
+     position: relative;
+     width: 100%;
+}
+
+.video iframe {
+     display: block;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     position: absolute;
+     width: 100%;
+}
+
+div.wrapper, .wrapper100 {
+     display: block;
+     margin: 0px;
+     padding: 0px;
+     text-align: left;
+     width: 100%;
+     word-wrap: break-word;
+}
+
+.row1, .row1 a {
+     background-color: transparent;
+     color: #000000;
+}
+
+.row2 {
+     background-color: transparent;     
+     color: #919191;
+}
+
+.row3 {
+     background-color: transparent;
+     color: #666666;
+     min-height: 190px;
+}
+
+.row4, .row4 a {
+     background-color: transparent;
+     color: #919191;
+}
+
+.row5 {
+     background-color: transparent;
+     border-bottom: 1px solid #E5E4E3;
+     color: #666666;
+}
+
+body {
+     font-family: Arial,Helvetica,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: "CaviarDreamsBold",Arial,Helvetica,sans-serif;
+     font-size: 1.6em;
+     font-weight: normal;
+     line-height: normal;
+     margin: 0px 0px 10px;
+}
+
+address {
+     font-style: normal;
+     margin: 10px 0px;
+}
+
+nav ul {
+     list-style: none outside none;
+     margin: 0px;
+     padding: 0px;
+}
+
+#header, #topnav, #intro, #container, #footer, #copyright {
+     margin: 0px auto;
+}
+
+#header, #topnav, #intro, #container, #footer {
+     background-color: #FFFFFF;
+}
+
+#header {
+     /*padding: 10px 0px;*/
+
+-moz-border-radius:15px 15px 0px 0px;
+border-radius:15px 15px 0px 0px;
+}
+#header img {    
+     width: 100%;
+}
+#header hgroup {
+     clear: right;
+     display: block;
+     float: left;
+     width: auto;
+}
+
+#header hgroup h1, #header hgroup h2 {
+     font-weight: normal;
+     margin: 0px;
+     text-transform: none;
+}
+
+#header hgroup h1 {
+     font-size: 2em;
+}
+
+#header hgroup h2 {
+     font-size: 1em;
+}
+
+#header #header-contact {
+     clear: right;
+     display: block;
+     float: right;
+     width: auto;
+}
+
+#header #header-contact ul {
+     margin-top: 15px;
+}
+
+#header #header-contact li {
+     border-left: 1px solid #C0BAB6;
+     display: inline;
+     margin: 0px 0px 0px 15px;
+     padding: 0px 0px 0px 15px;
+}
+
+#header #header-contact li:first-child {
+     border: medium none;
+     margin: 0px;
+     padding: 0px;
+}
+.containermargins {
+     padding:0px 10px;
+
+}
+#container1{
+background-color:#fff;
+height: 44px;
+border-left:2px solid #000;
+border-right:2px solid #000;
+}
+#container {
+     clear: both;
+     font-size: 1em;
+     line-height: 1.4em;
+     padding: 0px;
+     background-color:#FBF2D6;
+}
+
+#container section {
+   /* margin-bottom: 50px; */
+}
+
+#container section.last {
+     margin-bottom: 0px;
+}
+
+.emphasise, #container .emphasise {
+     font-size: 2.8em;
+     line-height: 1.4em;
+}
+
+.font-small, #container .font-small {
+     font-size: 1em;
+}
+
+.font-medium, #container .font-medium {
+     font-size: 1.2em;
+}
+
+.font-large, #container .font-large {
+     font-size: 1.4em;
+}
+
+.font-xl, #container .xl-large {
+     font-size: 4em;
+     line-height: 1.2em;
+}
+
+.font-xxl, #container .xxl-large {
+     font-size: 6em;
+     font-weight: normal;
+     line-height: 1.2em;
+}
+
+.sidebar aside {
+     line-height: 1.2em;
+}
+
+.sidebar aside h2 {
+     border-bottom: 5px solid #E8E8E8;
+     font-size: 1.4em;
+     margin-bottom: 10px;
+     padding-bottom: 8px;
+}
+
+.sidebar aside ul.nospace li {
+     margin-top: 20px;
+}
+
+#footer {
+     padding: 30px 0px;
+     
+-moz-border-radius: 0px 0px 15px 15px;
+border-radius: 0px 0px 15px 15px;
+background-color:#FBF2D6;
+}
+
+#footer .footer_title {
+     border-bottom: 1px solid #919191;
+     font-size: 1.2em;
+     margin-bottom: 40px;
+     padding-bottom: 10px;
+}
+
+#footer div {
+     margin-bottom: 0px;
+}
+
+#footer .tweet-container li {
+     border-top: 1px solid #333333;
+     margin-top: 18px;
+     padding-top: 18px;
+}
+
+#footer .tweet-container li:first-child {
+     border-top: medium none;
+     margin-top: 0px;
+     padding-top: 0px;
+}
+
+#footer .tweet-container li .tweet_time {
+     font-size: 0.8em;
+}
+
+#footer #ft_gallery.spacing li {
+     margin-bottom: 15px;
+}
+
+#footer form label {
+     display: block;
+     margin: 0px 0px 18px;
+     width: 100%;
+}
+
+#footer form label input {
+     margin-top: 5px;
+}
+
+#footer form label input, #footer form textarea {
+     background-color: #333333;
+     border-color: #666666;
+     color: #FFFFFF;
+}
+
+#footer form textarea {
+     height: 120px;
+}
+
+#copyright {
+     font-size: 0.85em;
+     padding: 20px 0px;
+}
+
+#copyright p {
+     margin: 0px;
+     padding: 0px;
+}
+
+#topnav {
+     /*background-color: #232323;*/
+     background-image:url(http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/menu_bg.png);
+     clear: both;
+     color: #C0BAB6;
+     padding: 0px;
+     white-space: nowrap;
+     word-wrap: normal;
+}
+
+#topnav ul {
+     font-size: 12px;
+     list-style: none outside none;
+     margin: 0px;
+     padding: 0px;
+     text-transform: uppercase;
+}
+
+#topnav ul ul {
+     position: absolute;
+     text-transform: none;
+     width: 190px;
+     z-index: 9999;
+}
+
+#topnav ul ul ul, #topnav ul ul ul ul {
+     left: 190px;
+     top: 0px;
+}
+
+#topnav ul:first-child li:last-child > ul {
+     right: 0px;
+}
+
+#topnav ul:first-child > li:last-child li > ul {
+     left: -190px;
+}
+
+#topnav li {
+     display: block;
+     float: left;
+     margin: 0px 10px 0px 0px;
+     padding: 0px;
+     position: relative;
+}
+
+#topnav li:first-child {
+    
+}
+
+#topnav li ul {    
+border-left:2px solid #CACFE5;    
+border-right:2px solid #CACFE5;    
+border-bottom:2px solid #CACFE5;
+}
+
+#topnav ul:first-child li:last-child {
+     margin-right: 0px;
+}
+
+#topnav li li {
+     margin: 0px;
+     width: 100%;
+}
+
+#topnav li a {
+     display: block;
+     padding: 10px 4px;
+}
+
+#topnav li li a {
+     display: block;
+     margin: 0px;
+     padding: 10px 15px;
+}
+
+#topnav ul ul {
+     display: none;
+}
+
+#topnav ul li:hover > ul {
+     display: block;
+}
+
+#topnav a {
+     /*background-color: #232323;  color: #C0BAB6; */
+     color: #000;
+     font-weight: bold;
+}
+
+#topnav li li a, #topnav li.active li a {
+     background: none repeat scroll 0% 0% #fff;
+     color: #333;
+     font-weight: bold;
+    opacity: 0.9;
+}
+
+#topnav li.active a, #topnav a:hover {
+     
+    background-image: url("http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/menu_hover.gif");
+     color: #000;
+     opacity: 1.0;
+}
+
+#topnav ul li li:hover > a {
+     background-color: #BACB95;
+     color: #FFFFFF;
+}
+
+#topnav li a.drop, #topnav li.active a.drop {
+     background-image: url("images/dropdown_side.gif");
+     background-position: 5px center;
+     background-repeat: no-repeat;
+     padding-left: 15px;
+}
+
+#topnav form {
+     display: block;
+     height: 30px;
+     margin: 0px auto;
+     padding: 20px 0px;
+}
+
+#topnav form select {
+     background-color: #232323;
+     border: 1px solid #494949;
+     color: #FFFFFF;
+     cursor: pointer;
+     display: block;
+     outline: medium none;
+     padding: 8px;
+     width: 98%;
+     margin:0px 1%;
+}
+
+#topnav form select option {
+     border: medium none;
+     cursor: pointer;
+     display: block;
+     margin: 10px;
+     outline: medium none;
+     padding: 0px;
+}
+
+.sidebar aside nav {
+     display: block;
+     margin-bottom: 30px;
+     width: 100%;
+}
+
+.sidebar aside nav ul {
+     list-style: none outside none;
+     margin: 0px;
+     padding: 0px;
+}
+
+.sidebar aside nav li {
+     margin: 0px 0px 3px;
+     padding: 0px;
+}
+
+.sidebar aside nav a {
+     background: url("images/orange_file.gif") no-repeat scroll 10px center transparent;
+     border-bottom: 1px dotted #666666;
+     color: #666666;
+     display: block;
+     margin: 0px;
+     padding: 5px 10px 5px 20px;
+     text-decoration: none;
+}
+
+.sidebar aside nav a:hover {
+     background-color: inherit;
+     color: #FF9900;
+}
+
+.sidebar aside nav ul ul a {
+     background: url("images/black_file.gif") no-repeat scroll 0% 0% transparent;
+}
+
+.sidebar aside nav ul ul a {
+     background-position: 30px center;
+     padding-left: 40px;
+}
+
+.sidebar aside nav ul ul ul a {
+     background-position: 40px center;
+     padding-left: 50px;
+}
+
+.sidebar aside nav ul ul ul ul a {
+     background-position: 50px center;
+     padding-left: 60px;
+}
+
+.sidebar aside nav ul ul ul ul ul a {
+     background-position: 60px center;
+     padding-left: 70px;
+}
+
+.pagination {
+     clear: both;
+     display: block;
+     line-height: normal;
+     text-align: center;
+     width: 100%;
+}
+
+.pagination ul {
+     list-style: none outside none;
+     margin: 0px;
+     padding: 0px;
+}
+
+.pagination li {
+     display: inline;
+}
+
+.pagination strong {
+     font-weight: normal;
+}
+
+.pagination .next {
+     margin: 0px;
+}
+
+.pagination a, .pagination .current strong, .pagination .splitter strong {
+     display: inline-block;
+     margin: 1px 2px;
+     padding: 5px 10px;
+}
+
+.pagination a:first-child {
+     margin-left: 0px;
+}
+
+.pagination a {
+     border: 1px solid #DFDFDF;
+}
+
+.footer_nav {
+     margin: 0px;
+     padding: 0px;
+}
+
+.footer_nav ul li {
+     border-top: 1px solid #333333;
+     margin-top: 12px;
+     padding-top: 12px;
+}
+
+.footer_nav ul li:first-child {
+     border-top: medium none;
+     margin-top: 0px;
+     padding-top: 0px;
+}
+
+.registerGroup, .loginGroup {
+     float: right;
+     margin-left: 10px;
+     margin-top: 0px;
+}
+
+.registerGroup {
+     display: none;
+}
+
+.containermargins{
+margin-left:-2px;
+margin-right:-2px;
+border-left:2px solid #000;
+border-right:2px solid #000;
+}
+.breadcrumbcontainer
+{
+  background-color:#fff;
+}
+#header{
+border-left:2px solid #000;
+border-right:2px solid #000;
+}
+#topnav{
+border-left: 2px solid #000;
+padding-left:-1px;
+padding-right:2px;
+}
+#footer{
+
+border-left:2px solid #000;
+border-right:2px solid #000;
+border-bottom:2px solid #000;
+}
