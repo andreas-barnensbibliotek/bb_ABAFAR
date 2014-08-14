@@ -3,11 +3,14 @@ html {
 }
 
 body {
-     background-color: #C0E38A;
+     background-color: #BACB95;
      color: #919191;
-     font-size: 12px;
+     font-size: 14px;
      margin: 0px;
      padding: 0px;
+     margin: 0px auto;
+    padding: 0 1.15em;
+    max-width: 70.571em;      /* 988px / 14px = 70.571em */
 }
 
 body.boxed {
@@ -129,28 +132,29 @@ div.wrapper, .wrapper100 {
 }
 
 .row1, .row1 a {
-     background-color: transparent;
+     background-color: #BACB95;
      color: #000000;
 }
 
 .row2 {
-     background-color: transparent;     
+     background-color: #232323;
+     border-bottom: 1px solid #333333;
      color: #919191;
 }
 
 .row3 {
-     background-color: transparent;
+     background-color: #FFFFFF;
      color: #666666;
-     min-height: 190px;
+     min-height: 400px;
 }
 
 .row4, .row4 a {
-     background-color: transparent;
+     background-color: #232323;
      color: #919191;
 }
 
 .row5 {
-     background-color: transparent;
+     background-color: #FFFFFF;
      border-bottom: 1px solid #E5E4E3;
      color: #666666;
 }
@@ -161,10 +165,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
      font-family: "CaviarDreamsBold",Arial,Helvetica,sans-serif;
-     font-size: 1.6em;
+     font-size: 1.8em;
      font-weight: normal;
      line-height: normal;
      margin: 0px 0px 10px;
+     Ftext-transform: capitalize;
 }
 
 address {
@@ -182,19 +187,10 @@ nav ul {
      margin: 0px auto;
 }
 
-#header, #topnav, #intro, #container, #footer {
-     background-color: #FFFFFF;
-}
-
 #header {
-     /*padding: 10px 0px;*/
+     padding: 10px 0px;
+}
 
--moz-border-radius:15px 15px 0px 0px;
-border-radius:15px 15px 0px 0px;
-}
-#header img {    
-     width: 100%;
-}
 #header hgroup {
      clear: right;
      display: block;
@@ -239,26 +235,16 @@ border-radius:15px 15px 0px 0px;
      margin: 0px;
      padding: 0px;
 }
-.containermargins {
-     padding:0px 10px;
 
-}
-#container1{
-background-color:#fff;
-height: 44px;
-border-left:2px solid #000;
-border-right:2px solid #000;
-}
 #container {
      clear: both;
      font-size: 1em;
      line-height: 1.4em;
      padding: 0px;
-     background-color:#fff;
 }
 
 #container section {
-   /* margin-bottom: 50px; */
+     margin-bottom: 50px;
 }
 
 #container section.last {
@@ -310,10 +296,6 @@ border-right:2px solid #000;
 
 #footer {
      padding: 30px 0px;
-     
--moz-border-radius: 0px 0px 15px 15px;
-border-radius: 0px 0px 15px 15px;
-
 }
 
 #footer .footer_title {
@@ -378,8 +360,7 @@ border-radius: 0px 0px 15px 15px;
 }
 
 #topnav {
-     /*background-color: #232323;*/
-     background-image:url(http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/menu_bg.png);
+     background-color: #232323;
      clear: both;
      color: #C0BAB6;
      padding: 0px;
@@ -388,7 +369,7 @@ border-radius: 0px 0px 15px 15px;
 }
 
 #topnav ul {
-     font-size: 12px;
+     font-size: 0.857142em;
      list-style: none outside none;
      margin: 0px;
      padding: 0px;
@@ -400,11 +381,13 @@ border-radius: 0px 0px 15px 15px;
      text-transform: none;
      width: 190px;
      z-index: 9999;
+     font-size:1.0em;
 }
 
 #topnav ul ul ul, #topnav ul ul ul ul {
      left: 190px;
      top: 0px;
+     font-size:1.0em;
 }
 
 #topnav ul:first-child li:last-child > ul {
@@ -418,19 +401,13 @@ border-radius: 0px 0px 15px 15px;
 #topnav li {
      display: block;
      float: left;
-     margin: 0px 10px 0px 0px;
+     margin: 0px 1.25% 0px 0px;
      padding: 0px;
      position: relative;
 }
 
 #topnav li:first-child {
     
-}
-
-#topnav li ul {    
-border-left:2px solid #CACFE5;    
-border-right:2px solid #CACFE5;    
-border-bottom:2px solid #CACFE5;
 }
 
 #topnav ul:first-child li:last-child {
@@ -444,7 +421,7 @@ border-bottom:2px solid #CACFE5;
 
 #topnav li a {
      display: block;
-     padding: 10px 4px;
+     padding: 20px 0px;
 }
 
 #topnav li li a {
@@ -462,23 +439,20 @@ border-bottom:2px solid #CACFE5;
 }
 
 #topnav a {
-     /*background-color: #232323;  color: #C0BAB6; */
-     color: #000;
+     background-color: #232323;
+     color: #C0BAB6;
      font-weight: bold;
 }
 
 #topnav li li a, #topnav li.active li a {
-     background: none repeat scroll 0% 0% #fff;
-     color: #333;
-     font-weight: bold;
-    opacity: 0.9;
+     background: none repeat scroll 0% 0% #000000;
+     color: #FFFFFF;
+     font-weight: normal;
 }
 
 #topnav li.active a, #topnav a:hover {
-     
-    background-image: url("http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/menu_hover.gif");
-     color: #000;
-     opacity: 1.0;
+     background-color: #232323;
+     color: #BACB95;
 }
 
 #topnav ul li li:hover > a {
@@ -508,8 +482,7 @@ border-bottom:2px solid #CACFE5;
      display: block;
      outline: medium none;
      padding: 8px;
-     width: 98%;
-     margin:0px 1%;
+     width: 100%;
 }
 
 #topnav form select option {
@@ -642,30 +615,4 @@ border-bottom:2px solid #CACFE5;
 
 .registerGroup {
      display: none;
-}
-
-.containermargins{
-margin-left:-2px;
-margin-right:-2px;
-border-left:2px solid #000;
-border-right:2px solid #000;
-}
-.breadcrumbcontainer
-{
-  background-color:#fff;
-}
-#header{
-border-left:2px solid #000;
-border-right:2px solid #000;
-}
-#topnav{
-border-left: 2px solid #000;
-padding-left:-1px;
-padding-right:2px;
-}
-#footer{
-
-border-left:2px solid #000;
-border-right:2px solid #000;
-border-bottom:2px solid #000;
 }

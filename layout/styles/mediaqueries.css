@@ -9,10 +9,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 @-ms-viewport{width:device-width;} /* http://msdn.microsoft.com/en-gb/library/ie/hh869615%28v=vs.85%29.aspx */
 /* global */
 /*#header, #topnav, #intro, #container, #container1, #footer, #copyright { padding:0 1% 1% 1%;}*/
-#topnav
-{
-    padding-bottom:0px;
-}
+
 	/*#header img{
     margin-left:-1%
 }*/
@@ -179,4 +176,9 @@ padding-right:1px;
 
 @media screen and (min-width:1501px) {
 	body.boxed .wrapper .stretched{margin-left:-2.6%; margin-right:-2.6%;}
+}
+#topnav
+{
+    padding-bottom:0px;
+    width:80.66%;
 }

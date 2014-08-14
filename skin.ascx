@@ -30,64 +30,147 @@
 <%--<fortyfingers:STYLEHELPER ID="addmobilemenujs" AddJsFile="layout/scripts/jquery-mobilemenu.min.js" runat="server" />--%>
 <div class="wrapper row1">
   <header id="header" class="full_width clear">
-    <hgroup>
-      <dnn:LOGO ID="LOGO1" runat="server" />
-      
-    </hgroup>
-    <div id="header-contact">
-      <ul class="list none">
-        <li><span class="icon-envelope"></span> <a href="#">info@biomatec.se</a></li>
-        <li><span class="icon-phone"></span> 0321- 153 10</li>
-      </ul>
-    </div>
+      <div class="hgroup">
+            <img src="http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/huvud.png" />
+
+      </div>
   </header>
 </div>
 <!-- ################################################################################################ -->
 <div class="wrapper row2">
   <nav id="topnav">
-    <dnn:MENU ID="MENU1" MenuStyle="Simple" runat="Server"/>
+    <div class="containermargins clear">
+        <dnn:MENU ID="MENU1" MenuStyle="Simple" runat="Server"/>
+    </div>    
   </nav>
 </div>
-<!-- content -->
 
-			
+<!-- breadcrumb -->
+<div class="wrapper row2">
+    <div id="container1">
+ <div class="containermargins breadcrumbcontainer">
+     <div class="clear columncolor">
+      <div class="two_third first">
+          <dnn:BREADCRUMB runat="server" id="dnnBreadcrumb" RootLevel="0" Separator="" CssClass="breadCrumb" />
+      </div>
+      <div class="one_third">
+          <span class="dnnlogginbox">
+              <dnn:USER ID="dnnUser" CssClass="user" runat="server" LegacyMode="false" />
+              <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
+          </span>
+     </div>
+    </div>
+ </div>
+        </div>
+</div>
+	<!-- content -->		
 <div class="wrapper row3">
-<dnn:BREADCRUMB runat="server" id="dnnBreadcrumb" RootLevel="0" Separator="" CssClass="breadCrumb" />
-  <div id="container">
-    <!-- ################################################################################################ -->
-    <div class="three_quarter first">
-      
-        <div id="ContentPane" runat="server"></div>
-    
-      
-     
+
+    <div id="container">
+        <div class="containermargins">
+            <!-- ################################################################################################ -->
+            <div class="clear">
+                <!-- ################################################################################################ -->
+                <div class="two_third first">
+                    <span id="ContentPane" runat="server"></span>
+                </div>
+                <!-- ################################################################################################ -->
+                <div class="one_third">
+                    <div id="subcontent" runat="server"></div>
+                </div>
+                <!-- ################################################################################################ -->
+            </div>
+            <!-- ################################################################################################ -->
+
+            <!-- ################################################################################################ -->
+            <div class="clear">
+                <!-- ################################################################################################ -->
+                <div class="one_half first">
+                    <span id="splitcontentleft" runat="server"></span>
+                </div>
+                <!-- ################################################################################################ -->
+                <div class="one_half">
+                    <div id="splitcontentright" runat="server"></div>
+                </div>
+                <!-- ################################################################################################ -->
+            </div>
+            <!-- ################################################################################################ -->
+
+            <!-- ################################################################################################ -->
+            <div class="clear">
+                <!-- ################################################################################################ -->
+                <div class="one_third first">
+                    <span id="trekolumn_left" runat="server"></span>
+                </div>
+                <!-- ################################################################################################ -->
+                <div class="one_third">
+                    <div id="trekolumn_middle" runat="server"></div>
+                </div>
+                <!-- ################################################################################################ -->
+                <div class="one_third">
+                    <div id="trekolumn_right" runat="server"></div>
+                </div>
+                <!-- ################################################################################################ -->
+            </div>
+            <!-- ################################################################################################ -->
+
+            <!-- ################################################################################################ -->
+            <div class="clear">
+                <div id="singlecolumn" runat="server"></div>
+            </div>
+            <!-- ################################################################################################ -->
+        </div>
     </div>
-    <!-- ################################################################################################ -->
-    <div id="sidebar_1" class="sidebar one_quarter">
-      <aside>
-        <div id="RightPane" runat="server"></div>
-      </aside>
-    </div>
-    <!-- ################################################################################################ -->
-    <div class="clear"></div>
-  </div>
 </div>
 <!-- Footer -->
 
+<div class="wrapper row2">
+  <div class="clear" id="footer">
+       <div class="containermargins">
+            <div class="one_quarter first">
+              <!-- CONTAINER ################################################################################################ -->
+                 <div id="foterpane_1_4Pane" runat="server"></div>
+                &nbsp;
+            </div>
+            <div class="one_quarter">
+              <!-- CONTAINER ################################################################################################ -->
+                <div id="foterpane_2_4Pane" runat="server"></div>
+                &nbsp;
+            </div>
+            <div class="one_quarter">
+              <!-- CONTAINER ################################################################################################ -->
+                <div id="foterpane_3_4Pane" runat="server"></div>
+                &nbsp;
+            </div>
+            <div class="one_quarter">
+              <!-- CONTAINER ################################################################################################ -->
+                <div id="foterpane_4_4Pane" runat="server"></div>                
+                &nbsp;
+            </div>
+        </div>
+  </div>
+    
+</div>
+
+
 <div class="wrapper row4">
   <div id="copyright" class="clear">
-    <p class="fl_left">Copyright &copy; 2013 - All Rights Reserved - <a href="#">Biomatec.se</a></p>
+    <p class="fl_left">Copyright &copy; 2013 - All Rights Reserved - <a href="#">barnensbibliotek.se.se</a></p>
     <p class="fl_right">
-        <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
-        <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
+        
         <span style="display:none;"> by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></span>
     </p>
   
   </div>
 </div>
-<!-- Scripts -->
-
-<script>jQuery(document).ready(function($){ $('img').removeAttr('width height'); });</script>
+<!-- AJSHAREBOX WIDGET -->
+<fortyfingers:STYLEHELPER ID="AJShareboxCss" AddCssFile="../../../../DesktopModules/ajSharebox/ajSharebox.css" runat="server" />
+<fortyfingers:STYLEHELPER ID="AJShareboxJs"  AddJsFile="../../../../DesktopModules/ajSharebox/ajSharebox.js" runat="server" />
+<div class="Ajshare_box">
+    <ul></ul>
+</div>
+<span id="barnensbiblCurrentUserid"><%=UserController.GetCurrentUserInfo().UserID%></span>
+<script>jQuery(document).ready(function ($) { $('img').removeAttr('width height'); });</script>
 
 <fortyfingers:STYLEHELPER ID="scriptmobile" AddJsFile="layout/scripts/jquery-mobilemenu.min.js" runat="server" />
 <fortyfingers:STYLEHELPER ID="addcustomjs" AddJsFile="layout/scripts/custom.js" runat="server" />
