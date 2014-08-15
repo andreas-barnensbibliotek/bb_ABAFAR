@@ -129,21 +129,21 @@ padding-right:1px;
 /* 960px */
 
 @media screen and (min-width:801px) {
-	#header, #topnav, #intro, #container, #container1, #footer, #copyright{max-width:95%; margin:0 auto;}
+	/*#header, #topnav, #intro, #container, #container1, #footer, #copyright{max-width:95%; margin:0 auto;}*/
     		
 }
 
 /* 1028px */
 
 @media screen and (min-width:1028px) {
-	#header, #topnav, #intro, #container, #container1, #footer, #copyright{max-width:956px; margin:0 auto;}
+	/*#header, #topnav, #intro, #container, #container1, #footer, #copyright{max-width:956px; margin:0 auto;}*/
 }
 
 /* 1200px */
 
 @media screen and (min-width:1200px) {
-	body.boxed .wrapper{max-width:956px;}
-	#header, #topnav, #intro, #container, #container1, #footer, #copyright, .stretched{max-width:956px; margin:0 auto;}
+	/*body.boxed .wrapper{max-width:956px;}
+	#header, #topnav, #intro, #container, #container1, #footer, #copyright, .stretched{max-width:956px; margin:0 auto;}*/
 }
 
 /* 960px  kommenterad text är orginal för det responsiva temat. nu är allt satt till 956px bredd det som är kommenterat är auto så byt ut till det kommenterade när man övergår till nytt tema*/
@@ -180,5 +180,5 @@ padding-right:1px;
 #topnav
 {
     padding-bottom:0px;
-    width:80.66%;
+    width:100%;
 }

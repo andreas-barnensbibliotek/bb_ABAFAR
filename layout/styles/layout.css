@@ -188,7 +188,8 @@ nav ul {
 }
 
 #header {
-     padding: 10px 0px;
+      padding:0px 0px 10px 0px;
+      background-color:#fff;
 }
 
 #header hgroup {
@@ -401,9 +402,17 @@ nav ul {
 #topnav li {
      display: block;
      float: left;
-     margin: 0px 1.25% 0px 0px;
+     margin: 0px 0.5% 0px 0.5%;
      padding: 0px;
      position: relative;
+}
+#topnav ul li:hover > a {
+     background-color: #FFF200;
+     color: #000;
+}
+#topnav ul li.active{
+     background-color: #FFF200;
+     color: #000;
 }
 
 #topnav li:first-child {
@@ -615,4 +624,18 @@ nav ul {
 
 .registerGroup {
      display: none;
+}
+#logon
+{
+    
+    padding-left:2.7%; /* 3.57%*/
+    margin-right:80.66%;     
+    height:100px;
+}
+
+#menyn ul
+{
+    width:80.66%;
+    float:right;
+    margin-left:19.33%;
 }
