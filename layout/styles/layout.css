@@ -10,7 +10,7 @@ body {
      padding: 0px;
      margin: 0px auto;
      padding: 0 1.15em;
-    max-width: 70.571em;      /* 988px / 14px = 70.571em */
+    max-width: 72.857em;      /* 988px / 14px = 70.571em */
 }
 
 body.boxed {
@@ -653,3 +653,49 @@ background-color:transparent;
     float:right;
     margin-left:19.33%;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* ---- isotope ---- */
+#containern
+{
+     margin: 0px auto;
+    padding: 0 1.15em;
+    max-width: 988px;
+}
+.isotope {
+  background: #fff;
+  max-width: 100%;
+}
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .item ---- */
+
+.item {
+  _float: left;
+  width: 24.2914%;
+  height: 300px;
+  margin-bottom: 10px;
+  background: #0D8;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.7);
+  overflow:auto;
+}
+
+/* 2 cols + 1 gutter = 100 + 20 + 100 */
+.item.width2 { width: 24.2914%; }
+.item.width4 { width: 49.5951%; }
+.item.height2 { height: 220px; }
+.item.height1 { height: 120px; }
+.item.height3 { height: 520px; }

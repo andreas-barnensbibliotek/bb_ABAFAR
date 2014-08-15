@@ -1,5 +1,17 @@
 jQuery(document).ready(function ($) {
 
+    $('#container').isotope({
+        itemSelector: '.item',
+        getSortData: {
+            name: '.name',
+            category: '[data-category]'
+        },
+        // layout mode options
+        masonry: {
+            columnWidth: 200
+        }
+    });
+
     /* Alert Messages */
 	
     $(".alert-msg .close").click(function () {
