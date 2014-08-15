@@ -3,19 +3,24 @@ html {
 }
 
 body {
-     background-color: #BACB95;
+     background-color: #44B4C6;
      color: #919191;
      font-size: 14px;
      margin: 0px;
      padding: 0px;
      margin: 0px auto;
-    padding: 0 1.15em;
+     padding: 0 1.15em;
     max-width: 70.571em;      /* 988px / 14px = 70.571em */
 }
 
 body.boxed {
      background-color: #000000;
      color: #919191;
+}
+
+#maincontainer{
+    padding:0px 10px;
+  	background-color:#fff;
 }
 
 .justify {
@@ -430,7 +435,7 @@ nav ul {
 
 #topnav li a {
      display: block;
-     padding: 20px 0px;
+     padding: 16px 5px;
 }
 
 #topnav li li a {
@@ -460,13 +465,13 @@ nav ul {
 }
 
 #topnav li.active a, #topnav a:hover {
-     background-color: #232323;
-     color: #BACB95;
+     background-color: #FFF200;
+     color: #000;
 }
 
 #topnav ul li li:hover > a {
-     background-color: #BACB95;
-     color: #FFFFFF;
+     background-color: #FFF200;
+     color: #000;
 }
 
 #topnav li a.drop, #topnav li.active a.drop {
