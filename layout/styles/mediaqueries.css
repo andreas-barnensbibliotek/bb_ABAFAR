@@ -15,6 +15,72 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 }*/
 /* 240 + 320px */
 
+/* ---- isotope ---- */
+
+#logon
+{
+    z-index:9999;
+    padding-left:2.7%; /* 3.57%*/
+    margin-right:80.66%;     
+    height:100px;
+}
+#menyn ul
+{
+    width:80.66%;
+    float:right;
+    margin-left:19.33%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containern
+{
+     margin: 0px auto;
+    padding: 0 1.15em;
+    max-width: 988px;
+}
+.isotope {
+  background: #fff;
+  max-width: 100%;
+  margin-top:10px;
+}
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .item ---- */
+
+.item {
+  float: left;
+  width: 24.2914%;
+  height: 470px;
+  margin:0px 3px;
+  margin-bottom: 6px;
+    /*border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.7);*/
+  overflow:hidden;   
+}
+
+.item h1, .item p{
+padding:2px 10px;
+}
+
+/* 2 cols + 1 gutter = 100 + 20 + 100 */
+.item.width1 { width: 24.2914%; }/*968/4 = 242-10= 232/968= 23.9669% */
+.item.width2 { width: 49.2951%; } /*968/2 = 494-10= 484/988= 48.9878% */
+.item.height1 { height: 232px; }
+.item.height2 { height: 473px; }
+
+
+
 @media screen and (min-width:180px) and (max-width:360px) {
 	#header, #topnav, #intro, #container, #container1, #footer, #copyright{max-width:95%; margin:0 auto;}
 
@@ -168,8 +234,16 @@ padding-right:1px;
 
 /* Hide The Jquery Generated Navigation Form from 801px upwards */
 
-@media screen and (min-width:801px) and (max-width:10000px) {
-	#topnav form{display:none;}
+@media screen and (min-width:851px) and (max-width:10000px) {
+	body {    
+     margin: 0px;
+     padding: 0px;
+     margin: 0px auto;
+     padding: 0 1.15em;
+    max-width: 72.857em;      /* 988px / 14px = 70.571em */
+}
+    
+    #topnav form{display:none;}
 }
 
 /* Resize Extended Box */
@@ -180,5 +254,9 @@ padding-right:1px;
 #topnav
 {
     padding-bottom:0px;
-    width:100%;
+    width:auto;
+     background-color: #232323;
+     color: #919191;
+    margin-left:3px;
+    margin-right:6px;
 }

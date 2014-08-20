@@ -2,15 +2,11 @@ html {
      overflow-y: scroll;
 }
 
-body {
+	body {
      background-color: #44B4C6;
      color: #919191;
      font-size: 14px;
-     margin: 0px;
-     padding: 0px;
-     margin: 0px auto;
-     padding: 0 1.15em;
-    max-width: 72.857em;      /* 988px / 14px = 70.571em */
+    
 }
 
 body.boxed {
@@ -19,7 +15,7 @@ body.boxed {
 }
 
 #maincontainer{
-    padding:0px 1% 1% 1%;
+    padding:0px 0.4% 0.7% 0.7%;
   	background-color:#fff;
 }
 
@@ -142,8 +138,8 @@ div.wrapper, .wrapper100 {
 }
 
 .row2 {
-     background-color: #232323;
-     color: #919191;
+     _background-color: #232323;
+     _color: #919191;
 }
 
 .row3 {
@@ -303,6 +299,7 @@ nav ul {
      padding: 5px;
      background-color: #FFF200;
      color:#000;
+     margin:0px 6px 0px 3px;
 }
 
 #footer .footer_title {
@@ -639,63 +636,52 @@ background-color:transparent;
 .registerGroup {
      display: none;
 }
-#logon
+
+.bgrgb_brun
 {
-    
-    padding-left:2.7%; /* 3.57%*/
-    margin-right:80.66%;     
-    height:100px;
+    background-color:#A28E5C;
 }
-
-#menyn ul
+.bgrgb_gron
 {
-    width:80.66%;
-    float:right;
-    margin-left:19.33%;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-
-/* ---- isotope ---- */
-#containern
+    background-color:#8DC641;
+}	
+.bgrgb_ljusgra
 {
-     margin: 0px auto;
-    padding: 0 1.15em;
-    max-width: 988px;
+    background-color:#E6E7E8;
 }
-.isotope {
-  background: #fff;
-  max-width: 100%;
+.bgrgb_morkgra
+{
+    background-color:#373535;
+    color:#fff;
+}
+.bgrgb_bla1
+{
+    background-color:#27AAE1;
+}
+.bgrgb_bla2
+{
+    background-color:#0EAFDD;
+}
+.bgrgb_orange
+{
+    background-color:#F7941E;
+}
+.bgrgb_lila
+{
+    background-color:#6B6BB1;
+}
+.bgrgb_rosa
+{
+    background-color: #C23177;
+}
+.bgrgb_ljusrosa
+{
+    background-color: #EFBBBB;
+}
+.bgrgb_gul
+{
+    background-color: #FFF200;
 }
 
-/* clear fix */
-.isotope:after {
-  content: '';
-  display: block;
-  clear: both;
-}
 
-/* ---- .item ---- */
 
-.item {
-  _float: left;
-  width: 24.2914%;
-  height: 300px;
-  margin-bottom: 10px;
-  background: #0D8;
-  border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.7);
-  overflow:auto;
-}
-
-/* 2 cols + 1 gutter = 100 + 20 + 100 */
-.item.width2 { width: 24.2914%; }
-.item.width4 { width: 49.5951%; }
-.item.height2 { height: 220px; }
-.item.height1 { height: 120px; }
-.item.height3 { height: 520px; }

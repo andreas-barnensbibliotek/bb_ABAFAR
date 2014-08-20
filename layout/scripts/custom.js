@@ -1,17 +1,13 @@
 jQuery(document).ready(function ($) {
 
-    $('#container').isotope({
+    $('.isotope').isotope({
         itemSelector: '.item',
-        getSortData: {
-            name: '.name',
-            category: '[data-category]'
-        },
-        // layout mode options
         masonry: {
-            columnWidth: 200
+            columnWidth: 242
         }
     });
-
+    $("#logon").css('position', 'relative');
+    $("#logon").css("z-index", "10000");
     /* Alert Messages */
 	
     $(".alert-msg .close").click(function () {
