@@ -17,19 +17,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 /* ---- isotope ---- */
 
-#logon
-{
-    z-index:9999;
-    padding-left:2.7%; /* 3.57%*/
-    margin-right:80.66%;     
-    height:100px;
-}
-#menyn ul
-{
-    width:80.66%;
-    float:right;
-    margin-left:19.33%;
-}
+
 
 * {
   -webkit-box-sizing: border-box;
@@ -234,15 +222,56 @@ padding-right:1px;
 
 /* Hide The Jquery Generated Navigation Form from 801px upwards */
 
-@media screen and (min-width:851px) and (max-width:10000px) {
+/* 481px > till 850px */
+@media (min-width:481px) and (max-width:850px) {
+	body {   
+        background-color:#b6ff00; 
+     margin: 0px;
+     padding: 0px;
+     margin: 0px auto;
+     padding: 0 1.15em;
+    max-width: 72.857em;      /* 988px / 14px = 70.571em */
+    }
+    #logon
+    {
+        z-index:9999;
+        padding-left:2.7%; /* 3.57%*/
+        margin-right:80.66%;     
+        height:100px;
+    }
+    #menyn ul
+    {
+        width:80.66%;
+        float:right;
+        margin-left:19.33%;
+    }
+    form input[type="submit"]{margin-bottom:10px;}
+}
+
+/* 851px > till max */
+@media (min-width:851px) and (max-width:10000px) {
 	body {    
      margin: 0px;
      padding: 0px;
      margin: 0px auto;
      padding: 0 1.15em;
     max-width: 72.857em;      /* 988px / 14px = 70.571em */
-}
+    }
     
+    #logon
+{
+    z-index:9999;
+    padding-left:2.7%; /* 3.57%*/
+    margin-right:80.66%;     
+    height:100px;
+}
+#menyn ul
+{
+    width:80.66%;
+    float:right;
+    margin-left:19.33%;
+}
+
     #topnav form{display:none;}
 }
 
