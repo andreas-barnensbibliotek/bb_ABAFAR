@@ -2,21 +2,14 @@ html {
      overflow-y: scroll;
 }
 
-	body {
+body {
      background-color: #44B4C6;
      color: #919191;
-     font-size: 14px;
-    
 }
 
 body.boxed {
      background-color: #000000;
      color: #919191;
-}
-
-#maincontainer{
-    padding:0px 0.4% 0.7% 0.7%;
-  	background-color:#fff;
 }
 
 .justify {
@@ -378,6 +371,7 @@ background-color:transparent;
      padding: 0px;
      white-space: nowrap;
      word-wrap: normal;
+
 }
 
 #topnav ul {
