@@ -86,7 +86,7 @@ and (orientation : portrait) {
         padding: 0px;
         margin: 0px auto;
         padding: 0 1.15em;
-        max-width: 64.857em;      /* 908px / 14px = 64.857em */
+        max-width: 64.857em;      /* 908px / 14px = 64.857em */       
         background-color:#ffd800;
     }
 
@@ -100,11 +100,19 @@ and (orientation : portrait) {
         width:80.16%;
         float:right;       
     }
-
+    #topnav{
+        margin-left: 3px;
+        margin-right: 0.5%;
+      font-size:0.96em;
+    }
+    #topnav li{
+        margin-left:0.3%;
+        margin-right:0.5%;
+    }
     #topnav li a {       
         padding-bottom: 14px;
-        padding-left: 4.5%;
-        padding-right: 4.5%;
+        padding-left: 1%;
+        padding-right: 1%;
         padding-top: 14px;
     }
     #topnav form{
@@ -112,51 +120,37 @@ and (orientation : portrait) {
     }
     .item{
         float: left;
-        width: 24.2914%;
-        height: 470px;
+        width: 24.0869%;
+        height: 430px;
         margin: 0px 3px;
-        margin-bottom: 6px;
-        /*border: 2px solid #333;
-      border-color: hsla(0, 0%, 0%, 0.7);*/
+        margin-bottom: 6px;     
         overflow: hidden;
+        font-size:0.85em;
     }
-
-    .item h1, .item p
-    {
+    .item h1, .item p{
         padding: 2px 10px;
     }
-
     /* 2 cols + 1 gutter = 100 + 20 + 100 */
-    .item.width1
-    {
-        width: 24.2914%;
+    .item.width1{
+        width: 24.0869%;
     }
     /*968/4 = 242-10= 232/968= 23.9669% */
-    .item.width2
-    {
-        width: 49.2951%;
+    .item.width2{
+        width: 48.94%;
     }
     /*968/2 = 494-10= 484/988= 48.9878% */
-    .item.height1
-    {
-        height: 232px;
+    .item.height1{
+        height: 212px;
     }
-
-    .item.height2
-    {
-        height: 473px;
-    }
-        
-
+    .item.height2{
+        height: 430px;
+    }    
 }
 
 /* Desktops and laptops ----------- (body 988px */
 @media only screen and (min-width : 908px)
 {
-
-
-    body
-    {
+    body{
         margin: 0px;
         padding: 0px;
         margin: 0px auto;
@@ -165,85 +159,70 @@ and (orientation : portrait) {
         background-color: #ccc;
     }
 
-    #logon
-    {
+    #logon{
         z-index: 9999;
         padding-left: 2.7%; /* 3.57%*/
         margin-right: 80.66%;
         height: 100px;
     }
 
-    #menyn ul
-    {
+    #menyn ul{
         width: 80.66%;
         float: right;
         margin-left: 19.33%;
     }
 
-    #topnav
-    {
+    #topnav{
         margin-left: 3px;
         margin-right: 0.5%;
     }
 
-    #topnav li a
-    {
+    #topnav li a{
         padding-bottom: 16px;
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 16px;
     }
 
-    #topnav form
-    {
+    #topnav form{
         display: none;
     }
 
-    #containern
-    {
+    #containern{
         margin: 0px auto;
         padding: 0 1.15em;
         max-width: 988px;
     }
-
-   
-    .item
-    {
+       
+    .item{
         float: left;
         width: 24.2914%;
         height: 470px;
         margin: 0px 3px;
-        margin-bottom: 6px;
-        /*border: 2px solid #333;
-      border-color: hsla(0, 0%, 0%, 0.7);*/
+        margin-bottom: 6px;      
         overflow: hidden;
     }
 
-        .item h1, .item p
-        {
-            padding: 2px 10px;
-        }
+    .item h1, .item p{
+        padding: 2px 10px;
+    }
 
-        /* 2 cols + 1 gutter = 100 + 20 + 100 */
-        .item.width1
-        {
-            width: 24.2914%;
-        }
-        /*968/4 = 242-10= 232/968= 23.9669% */
-        .item.width2
-        {
-            width: 49.2951%;
-        }
-        /*968/2 = 494-10= 484/988= 48.9878% */
-        .item.height1
-        {
-            height: 232px;
-        }
+    /* 2 cols + 1 gutter = 100 + 20 + 100 */
+    .item.width1{
+        width: 24.2914%;
+    }
+    /*968/4 = 242-10= 232/968= 23.9669% */
+    .item.width2{
+        width: 49.2951%;
+    }
+    /*968/2 = 494-10= 484/988= 48.9878% */
+    .item.height1{
+        height: 232px;
+    }
 
-        .item.height2
-        {
-            height: 473px;
-        }
+    .item.height2{
+        height: 473px;
+    }
 }
 
 /* Large screens ----------- */
