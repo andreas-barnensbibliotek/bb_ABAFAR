@@ -1,4 +1,4 @@
-<ul>
+<ul id="flexmenu">
 	[*>NODE]
 </ul>
 
