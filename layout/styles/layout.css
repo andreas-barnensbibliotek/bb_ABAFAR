@@ -634,14 +634,17 @@ background-color:transparent;
 .bgrgb_brun
 {
     background-color:#A28E5C;
+    color:#fff;
 }
 .bgrgb_gron
 {
     background-color:#8DC641;
+    color:#000;
 }	
 .bgrgb_ljusgra
 {
     background-color:#E6E7E8;
+    color:#000;
 }
 .bgrgb_morkgra
 {
@@ -651,30 +654,37 @@ background-color:transparent;
 .bgrgb_bla1
 {
     background-color:#27AAE1;
+    color:#fff;
 }
 .bgrgb_bla2
 {
     background-color:#0EAFDD;
+    color:#000;
 }
 .bgrgb_orange
 {
     background-color:#F7941E;
+    color:#fff;
 }
 .bgrgb_lila
 {
     background-color:#6B6BB1;
+    color:#fff;
 }
 .bgrgb_rosa
 {
     background-color: #C23177;
+    color:#fff;
 }
 .bgrgb_ljusrosa
 {
     background-color: #EFBBBB;
+    color:#000;
 }
 .bgrgb_gul
 {
     background-color: #FFF200;
+    color:#000;
 }
 
 

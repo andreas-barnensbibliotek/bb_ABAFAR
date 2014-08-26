@@ -7,11 +7,14 @@
 }
 
 body { font-size: 14px;}
- #maincontainer{
-    padding:0px 0.4% 0.7% 0.7%;
-  	background-color:#fff;
-}
-
+     #maincontainer{
+        padding:0px 0.4% 0.7% 0.7%;
+  	    background-color:#fff;
+    }
+    #topboxheader{
+        float:right;
+        max-width:80.16%;
+    }
   .isotope
     {
         background: #fff;
@@ -87,7 +90,7 @@ and (orientation : portrait) {
 
 }
 
-@media only screen and (min-width : 280px){
+@media only screen and (min-width : 280px)and (max-width : 579px){
  
      body{    
          margin: 0px;
@@ -103,6 +106,7 @@ and (orientation : portrait) {
         padding-left:2.7%; /* 3.57%*/
         margin-right:81.16%;     
         height:10px;
+        max-height:20px;
     }
     #menyn ul{
         width:80.16%;
@@ -129,7 +133,7 @@ and (orientation : portrait) {
         height: auto;
         margin: 0px ;
         margin-bottom: 4px;     
-        overflow: hidden;
+        overflow: auto;
         font-size:0.85em;
     }
     .item h1, .item p{
@@ -190,7 +194,7 @@ and (orientation : portrait) {
         height: 330px;
         margin: 0px 3px;
         margin-bottom: 6px;     
-        overflow: hidden;
+        overflow: auto;
         font-size:0.85em;
     }
     .item h1, .item p{
