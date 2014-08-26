@@ -78,8 +78,82 @@ and (orientation : portrait) {
    
 
 }
+@media only screen and (min-width : 580px){
+ 
+     body{    
+         margin: 0px;
+        padding: 0px;
+        margin: 0px auto;
+        padding: 0 1.15em;
+        max-width: 64.857em;      /* 908px / 14px = 64.857em */       
+        background-color:#0094ff;
+    }
 
-@media only screen and (min-width : 680px){
+    #logon{
+        z-index:9999;
+        padding-left:2.7%; /* 3.57%*/
+        margin-right:81.16%;     
+        height:80px;
+    }
+    #menyn ul{
+        width:80.16%;
+        float:right;       
+    }
+    #topnav{
+        margin-left: 3px;
+        margin-right: 0.5%;
+      font-size:0.96em;
+    }
+    #topnav li{
+        margin-left:0.3%;
+        margin-right:0.5%;
+    }
+    #topnav li a {       
+        padding-bottom: 14px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 14px;
+    }
+    #topnav form{
+        display:block;
+    }
+    #menyn{
+        display:none;
+  
+    }
+    .item{
+        float: left;
+        width: 48.94%;
+        height: 430px;
+        margin: 0px 3px;
+        margin-bottom: 6px;     
+        overflow: hidden;
+        font-size:0.85em;
+    }
+    .item h1, .item p{
+        padding: 2px 10px;
+    }
+    /* 2 cols + 1 gutter = 100 + 20 + 100 */
+    .item.width1{
+         width: 48.94%;
+    }
+    /*968/4 = 242-10= 232/968= 23.9669% */
+    .item.width2{
+        width: 48.94%;
+    }
+    /*968/2 = 494-10= 484/988= 48.9878% */
+    .item.height1{
+        height: 212px;
+    }
+    .item.height2{
+        height: 430px;
+    }    
+}
+
+
+
+
+@media only screen and (min-width : 760px){
  
      body{    
          margin: 0px;
@@ -96,6 +170,9 @@ and (orientation : portrait) {
         margin-right:81.16%;     
         height:80px;
     }
+    #menyn{
+        display:block;
+      }
     #menyn ul{
         width:80.16%;
         float:right;       
@@ -165,7 +242,10 @@ and (orientation : portrait) {
         margin-right: 80.66%;
         height: 100px;
     }
-
+    #menyn{
+        display:block;
+  
+    }
     #menyn ul{
         width: 80.66%;
         float: right;

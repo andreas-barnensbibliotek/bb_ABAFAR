@@ -1,5 +1,4 @@
 jQuery(document).ready(function ($) {
-
     $('.isotope').isotope({
         itemSelector: '.item',
         masonry: {
