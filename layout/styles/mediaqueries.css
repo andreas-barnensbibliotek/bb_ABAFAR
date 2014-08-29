@@ -222,23 +222,15 @@ and (orientation : portrait) {
     #topboxheader p{
         margin-top:6px;
     }
-    @media only screen and (min-width :580px )and (max-width : 690px)
+    @media only screen and (min-width :580px )and (max-width : 750px)
     {
         #topboxheader{
-            width:55%;
+            width:45%;
             height:100px;
         }
     }
 
-    @media only screen and (min-width : 698px)and (max-width : 760px)
-    {
-        #topboxheader{        
-            font-size:1em;                   
-        }
-        #topboxheader h1{
-            font-size:1.3em;        
-        }    
-    }
+    
     #menyn ul{
         width:80.16%;
         float:right;       
@@ -311,7 +303,7 @@ and (orientation : portrait) {
 }
 
 
-@media only screen and (min-width : 760px){
+@media only screen and (min-width : 800px){
  
      body{    
          margin: 0px;
@@ -331,11 +323,11 @@ and (orientation : portrait) {
         float:right;
         margin-right:0%;
         margin-top:3%;
-        height:85px;
-        font-size:0.95em;
+        height:95px;
+        font-size:0.90em;
     }
     #topboxheader h1{
-    font-size:1.4em;
+    font-size:1.1em;
         margin-bottom:6px;
     }
     #topboxheader p{
@@ -344,7 +336,8 @@ and (orientation : portrait) {
     @media only screen and (min-width : 800px)
     {
         #topboxheader{        
-            font-size:1em;       
+            font-size:1em;    
+            border:1px solid #f495f5;   
         }
         #topboxheader h1{
             font-size:1.4em;        

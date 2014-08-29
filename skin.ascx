@@ -38,11 +38,11 @@
           <dnn:LOGIN ID="LOGIN1" CssClass="loginbox" runat="server" LegacyMode="false" />
         </div> 
         <div id="logon">
-             <img src= "images/bblogo.png" runat="server" />
-        </div>
-        <div id="topboxheader"> 
-            <h1>»Elvira , 13
-            Jättebra bok. Spännande romant...</h1>
+            <img id="logoimg" src= "images/bblogo.png" runat="server" />
+            <div id="topboxheader"> 
+                <a id="topheaderbooktip" href="" ><h1>Julie Cordelia tipsar om: Den sista utvägen</h1>
+                <p>"Boken handlar om tonårsflickan Julie. Hennes mamma..." Läs mer</p></a>                  
+            </div>
         </div>
     </div>
 <!-- ################################################################################################ -->
