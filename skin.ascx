@@ -33,15 +33,17 @@
 
 <div id="maincontainer">
     <div class="wrapper row1">
-      <header id="header" class="full_width clear">
-         <div id="logon">
+        <div id="logginBlock">
+          <dnn:USER ID="USER1" CssClass="userbox" runat="server" LegacyMode="false" />
+          <dnn:LOGIN ID="LOGIN1" CssClass="loginbox" runat="server" LegacyMode="false" />
+        </div> 
+        <div id="logon">
              <img src= "images/bblogo.png" runat="server" />
-         </div>
-          <div id="topboxheader"> »Elvira , 13
-
-    Jättebra bok. Spännande romant...</div>
-      
-      </header>
+        </div>
+        <div id="topboxheader"> 
+            <h1>»Elvira , 13
+            Jättebra bok. Spännande romant...</h1>
+        </div>
     </div>
 <!-- ################################################################################################ -->
     <div class="wrapper row2">
@@ -68,23 +70,23 @@
            <div class="containermargins">
                 <div class="one_quarter first">
                   <!-- CONTAINER ################################################################################################ -->
-                     <div id="foterpane_1_4Pane" ><dnn:USER ID="dnnUser" CssClass="user" runat="server" LegacyMode="false" />
-                  <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" /></div>
+                     <div id="foterpane_1_4Pane" ><span id="foterPane_1_4" runat="server"></span>
+                         </div>
                 
                 </div>
                 <div class="one_quarter">
                   <!-- CONTAINER ################################################################################################ -->
-                    <div id="foterpane_2_4Pane" ><h2>Rubrik 2 foot</h2></div>
+                    <div id="foterpane_2_4Pane" ><span id="foterPane_2_4" runat="server"></span></div>
                
                 </div>
                 <div class="one_quarter">
                   <!-- CONTAINER ################################################################################################ -->
-                    <div id="foterpane_3_4Pane" ><h2>Rubrik 3 foot</h2><dnn:BREADCRUMB runat="server" id="dnnBreadcrumb" RootLevel="0" Separator="" CssClass="breadCrumb" /></div>
+                    <div id="foterpane_3_4Pane" ><span id="foterPane_3_4" runat="server"></span></div>
                 
                 </div>
                 <div class="one_quarter">
                   <!-- CONTAINER ################################################################################################ -->
-                    <div id="foterpane_4_4Pane" ><h2>Rubrik 4 foot</h2></div>                
+                    <div id="foterpane_4_4Pane" ><span id="foterPane_4_4" runat="server"></span></div>                
                     <!--&nbsp;-->
                 </div>
             </div>

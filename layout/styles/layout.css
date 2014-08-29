@@ -125,8 +125,7 @@ div.wrapper, .wrapper100 {
      word-wrap: break-word;
 }
 
-.row1, .row1 a {
-     background-color: #BACB95;
+.row1, .row1 a {     
      color: #000000;
 }
 
@@ -251,6 +250,16 @@ nav ul {
      border: medium none;
      margin: 0px;
      padding: 0px;
+}
+
+#topboxheader h1{
+    font-family: "CaviarDreamsBold",Arial,Helvetica,sans-serif;
+    color:#F7941E;
+    font-weight:bold;
+}
+#topboxheader p{
+    font-family: "FontAwesome",Arial,Helvetica,sans-serif;
+    font-style:italic;
 }
 
 #container {
