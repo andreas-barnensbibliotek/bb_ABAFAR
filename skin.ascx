@@ -40,8 +40,7 @@
         <div id="logon">
             <img id="logoimg" src= "images/bblogo.png" runat="server" />
             <div id="topboxheader"> 
-                <a id="topheaderbooktip" href="" ><h1>Julie Cordelia tipsar om: Den sista utvägen</h1>
-                <p>"Boken handlar om tonårsflickan Julie. Hennes mamma..." Läs mer</p></a>                  
+                <span id="HeaderPane" runat="server"></span>                                 
             </div>
         </div>
     </div>
