@@ -35,7 +35,27 @@
 
 <div id="maincontainer">
     <div class="wrapper row1">
-        <div id="logginBlock">
+        <div id="logon" class="one_quarter first">
+             <img id="logoimg" src= "images/bblogo.png" runat="server" />        
+        </div>
+        <div id="topboxheader" class="two_quarter">
+            <span id="topheader">
+                <span id="HeaderPane" runat="server"></span>
+                &nbsp;
+            </span>            
+        </div>    
+        <div id="logginBlock" class="one_quarter">
+          <dnn:USER ID="USER1" CssClass="userbox" runat="server" Text="Registrera" LegacyMode="false" />
+          <dnn:LOGIN ID="LOGIN2" CssClass="loginbox" runat="server" Text="Logga in" LegacyMode="false" /> 
+            <span id="searchboxen">
+          <dnn:SEARCH runat="server" id="dnnSEARCH" CssClass="ServerSkinWidget" UseDropDownList="true" Submit="<img src=http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/zoom.png border=&quot;0&quot; alt=&quot;Search&quot; /&gt;" />
+          </span>                              
+                        
+        </div>         
+        <div>&nbsp;</div>
+
+
+        <%--<div id="logginBlock">
           <dnn:USER ID="USER1" CssClass="userbox" runat="server" LegacyMode="false" />
           <dnn:LOGIN ID="LOGIN1" CssClass="loginbox" runat="server" LegacyMode="false" />
           </div> 
@@ -46,7 +66,7 @@
                 <a id="topheaderbooktip" href="" ><h1>Julie Cordelia tipsar om: Den sista utvägen</h1>
                 <p>"Boken handlar om tonårsflickan Julie. Hennes mamma..." Läs mer</p></a>    
             </div>
-        </div>
+        </div>--%>
     </div>
 <!-- ################################################################################################ -->
     <div class="wrapper row2">

@@ -14,14 +14,44 @@ body { font-size: 14px;}
    
     #logon{
         position:relative;
+    }
+           
+    #searchboxen{
+        display:block;
+	    margin-left:4px;
     }    
     #logginBlock div{
         float:left;    
-        margin-right:0.5em;
+        margin-right:0.2em;
        	margin-bottom:0.1em;
+    }    
+    .registerGroup .loginGroup {
+        margin-left:0.2em;  
     }
-    #logginBlock div{ float:right;} 
-   
+    .registerGroup ul{
+        margin:0px;
+    }
+   .SearchBorder div{ 
+		width:75%
+	}
+	.SearchContainer div, .SearchContainer input{
+		width:70%; 
+	}
+	.SearchContainer div{
+		height:24px;
+	}
+	.SearchContainer input{
+		height:22px;
+	}
+	.SearchContainer div .SearchIcon{
+		width:25%;
+	}
+    SearchContainer a{
+        padding-left:0;
+        padding-right:0px;
+        padding-top:4px;
+    }
+
     .isotope{
         background: #fff;
         max-width: 100%;
@@ -121,9 +151,11 @@ and (orientation : portrait) {
         display:none;
     }
     
-    .userbox{
+     .userDisplayName {
         display:none;
     }
+    .loginGroup{margin-left:40%}
+    .SearchBorder{ display:none;}
 
 
     @media only screen and (min-width : 480px){
@@ -298,9 +330,12 @@ and (orientation : portrait) {
        max-height:100%;
     }
 
-    .userbox{
+     .userDisplayName {
         display:none;
     }
+    .loginGroup{margin-left:10%}
+    .SearchBorder{ display:none;}
+    
 }
 
 
@@ -416,9 +451,11 @@ and (orientation : portrait) {
         max-width: 100%;    
         width: auto;
     } 
-    .userbox{
+    .userDisplayName {
         display:block;
     }
+    .loginGroup{margin-left:5%}
+    .SearchBorder{ display:block;}
 }
 
 /* Desktops and laptops ----------- (body 988px */
@@ -545,9 +582,11 @@ and (orientation : portrait) {
     .item.height3{
         height: 864px;
     }
-    .userbox{
+     .userDisplayName {
         display:block;
     }
+    .loginGroup{margin-left:5%}
+   .SearchBorder{ display:block;}
 }
 
 /* Large screens ----------- */
