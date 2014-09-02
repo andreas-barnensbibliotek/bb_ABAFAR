@@ -24,23 +24,27 @@
 <dnn:JQUERY ID="dnnjQuery" runat="server" />
 
 <fortyfingers:STYLEHELPER ID="MainCSS" AddToHead='<meta name="viewport" content="width=device-width, initial-scale=1.0">' AddCssFile="layout/styles/main.css" runat="server" />
+<fortyfingers:STYLEHELPER ID="STYLEHELPER2" AddCssFile="layout/styles/framework.css" runat="server" />
+
 <fortyfingers:STYLEHELPER ID="mediaqueriesCSS" AddCssFile="layout/styles/mediaqueries.css" runat="server" />
 <fortyfingers:STYLEHELPER ID="STYLEHELPER1" AddCssFile="layout/styles/slicknav.css" runat="server" />
 
 <fortyfingers:STYLEHELPER ID="SHGLEE9" IfBrowser="IE<9" AddCssFile="layout/styles/ie/ie8.css" AddJsFile="layout/scripts/ie/html5shiv.min.js" runat="server" />
 <fortyfingers:STYLEHELPER ID="SHGLEE9_2" IfBrowser="IE<9"   AddJsFile="layout/scripts/ie/css3-mediaqueries.min.js" runat="server" />
-<fortyfingers:STYLEHELPER ID="Isotopeinclude"   AddJsFile="layout/scripts/isotope.pkgd.min.js" runat="server" />
+<fortyfingers:STYLEHELPER ID="Isotopeinclude"  AddJsFile="layout/scripts/isotope.pkgd.min.js" runat="server" />
 
 <div id="maincontainer">
     <div class="wrapper row1">
         <div id="logginBlock">
           <dnn:USER ID="USER1" CssClass="userbox" runat="server" LegacyMode="false" />
           <dnn:LOGIN ID="LOGIN1" CssClass="loginbox" runat="server" LegacyMode="false" />
-        </div> 
+          </div> 
         <div id="logon">
             <img id="logoimg" src= "images/bblogo.png" runat="server" />
             <div id="topboxheader"> 
-                <span id="HeaderPane" runat="server"></span>                                 
+                <span id="HeaderPane" runat="server"></span>
+                <a id="topheaderbooktip" href="" ><h1>Julie Cordelia tipsar om: Den sista utvägen</h1>
+                <p>"Boken handlar om tonårsflickan Julie. Hennes mamma..." Läs mer</p></a>    
             </div>
         </div>
     </div>

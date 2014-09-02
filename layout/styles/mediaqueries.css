@@ -11,15 +11,16 @@ body { font-size: 14px;}
         padding:0px 0.4% 0.7% 0.7%;
   	    background-color:#fff;
     }
-    #topboxheader{
-        float:right;        
-    }
-     
+   
+    #logon{
+        position:relative;
+    }    
     #logginBlock div{
         float:left;    
         margin-right:0.5em;
        	margin-bottom:0.1em;
     }
+    #logginBlock div{ float:right;} 
    
     .isotope{
         background: #fff;
@@ -113,9 +114,13 @@ and (orientation : portrait) {
         max-height:110px;
        
     }
-    #topboxheader{
+    #topboxheader{        
+       display:block;
+    }
+    #topheader{
         display:none;
     }
+    
     .userbox{
         display:none;
     }
@@ -134,12 +139,8 @@ and (orientation : portrait) {
             padding-left:0.7%; /* 3.57%*/             
         }
     }
-    #topboxheader{
-        float:right;
-        margin-right:8%;
-        margin-top:4%;
-        height:80px;
-        font-size:1.2em;
+    #topboxheader{        
+       
     }
     #topboxheader h1{
     font-size:1.3em;
@@ -209,7 +210,7 @@ and (orientation : portrait) {
         height:60px;
     }
     #topboxheader{
-        float:right;
+       
         margin-right:0%;
         margin-top:5%;
         height:80px;
@@ -319,8 +320,7 @@ and (orientation : portrait) {
         padding-left:2.5%; /* 3.57%*/       
         height:80px;
     }
-    #topboxheader{
-        float:right;
+    #topboxheader{       
         margin-right:0%;
         margin-top:3%;
         height:95px;
@@ -439,8 +439,7 @@ and (orientation : portrait) {
         height: 100px;       
     }
 
-    #topboxheader{
-        float:right;
+    #topboxheader{        
         margin-right:0%;
         margin-top:3%;
         height:80px;
@@ -456,7 +455,7 @@ and (orientation : portrait) {
     
     @media only screen and (min-width : 970px){
         #topboxheader{        
-            m_argin-right:8%;
+            
             margin-top:4%;            
             font-size:1.2em;            
         }
