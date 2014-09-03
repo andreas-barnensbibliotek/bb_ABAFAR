@@ -187,6 +187,71 @@ h6{
     font-size: 0.85em;
     margin: 0px 0px 4px;
 }
+.item h1{
+    font-size: 2.3em;
+    margin: 0px 0px 10px;
+}
+.item h2{
+    font-size: 2.0em;
+    margin: 0px 0px 8px;
+}
+.item h3{
+    font-size: 1.8em;
+    margin: 0px 0px 6px;
+}
+.item h4{
+    font-size: 1.6em;
+    margin: 0px 0px 4px;
+}
+.item h5{
+    font-size: 1.2em;
+    margin: 0px 0px 4px;
+}
+.item h6{
+    font-size: 1.0em;
+    margin: 0px 0px 4px;
+}
+.item p{
+    font-size: 1.8em;
+    margin: 0px 0px 6px;
+}
+.item ul, .item ol {
+   font-size: 1.2em;
+   font-style:normal;
+}
+#topboxheader h1{
+    font-family: "Ubuntu",Arial,Helvetica,sans-serif;
+    color:#F7941E;
+    font-style:italic;
+    font-size: 2.0em;
+    margin: 0px 0px 10px;
+}
+#topboxheader h2{
+    font-size: 2.0em;
+    margin: 0px 0px 8px;
+}
+#topboxheader h3{
+    font-size: 1.8em;
+    margin: 0px 0px 6px;
+}
+#topboxheader h4{
+    font-size: 1.6em;
+    margin: 0px 0px 4px;
+}
+#topboxheader h5{
+    font-size: 1.2em;
+    margin: 0px 0px 4px;
+}
+#topboxheader h6{
+    font-size: 1.0em;
+    margin: 0px 0px 4px;
+}
+#topboxheader p{
+     font-family: "Ubuntu",Arial,Helvetica,sans-serif;
+    font-style:normal;
+    font-size: 1.4em;
+    margin: 0px 0px 6px;
+}
 address {
      font-style: normal;
      margin: 10px 0px;
@@ -250,16 +315,6 @@ nav ul {
      border: medium none;
      margin: 0px;
      padding: 0px;
-}
-
-#topboxheader h1{
-    font-family: "CaviarDreamsBold",Arial,Helvetica,sans-serif;
-    color:#F7941E;
-    font-weight:bold;
-}
-#topboxheader p{
-    font-family: "FontAwesome",Arial,Helvetica,sans-serif;
-    font-style:italic;
 }
 
 #container {
