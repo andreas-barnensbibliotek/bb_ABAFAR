@@ -104,3 +104,9 @@
 .slicknav_nav{
     margin-top:12%;
 }
+@media only screen and (min-width : 280px)and (max-width : 579px)
+{
+    .slicknav_nav{
+    margin-top:18%;
+}
+}
