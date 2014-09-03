@@ -57,7 +57,10 @@ body { font-size: 14px;}
         max-width: 100%;
         margin-top: 10px;
     }
-
+div.SearchContainer a
+{
+    display: inline;
+}
     /* clear fix */
     .isotope:after{
         content: '';
@@ -133,16 +136,31 @@ and (orientation : portrait) {
         margin: 0px auto;
         padding: 0 0.1em;
         max-width: 64.857em;      /* 908px / 14px = 64.857em */       
-        __background-color:#f495f5;
+        background-color:#f495f5;/*gul*/
     }
-         
+    .SearchContainer div, .SearchContainer input{
+		width:85%; 
+	}
+     .headerleftcol{
+         width: 25.3036%;  /* 250px /988px = 25.3036 */
+         float: left;
+    }
+
+    .headermaincol{
+         width: 44.4534%;  /* 538px /988px = 54.4534 */
+         float: left;
+    }
+    .headerrightcol{
+         width: 52.2429%;  /* 200px /988px = 02.2429 */
+         float: right;
+    }   
     #logon{
         z-index:9999;
-        padding-left:1.7%; /* 3.57%*/
-        margin-right:82.16%;     
-        height:0px;
-        max-height:110px;
-       
+        padding-left:1.7%; /* 3.57%*/       
+        height:0px;    
+    }
+    #logon img{       
+        max-height:110px;       
     }
     #topboxheader{        
        display:block;
@@ -154,28 +172,12 @@ and (orientation : portrait) {
      .userDisplayName {
         display:none;
     }
-    .loginGroup{margin-left:40%}
-    .SearchBorder{ display:none;}
+    
+    .loginGroup{display:none;}
+    .SearchBorder{ display:block;}
 
-
-    @media only screen and (min-width : 480px){
-        #logon{       
-            height:50px;
-            max-height:50px;          
-        }
-    }
-    @media only screen and (min-width :430px )and (max-width : 479px){
-        #logon{       
-            height:30px;
-            max-height:30px;  
-            padding-left:0.7%; /* 3.57%*/             
-        }
-    }
-    #topboxheader{        
-       
-    }
-    #topboxheader h1{
-    font-size:1.3em;
+   
+    #topboxheader h1{    
         margin-bottom:6px;
     }
     #topboxheader p{
@@ -230,11 +232,23 @@ and (orientation : portrait) {
         margin: 0px auto;
         padding: 0 0.25em;
         max-width: 64.857em;      /* 908px / 14px = 64.857em */       
-        __background-color:#0094ff;
+        background-color:#0094ff;/*blå*/
     }
-    #header
-    {
+    #header{
         padding-bottom:0px;
+    }
+    .headerleftcol{
+         width: 25.3036%;  /* 250px /988px = 25.3036 */
+         float: left;
+    }
+
+    .headermaincol{
+         width: 52.4534%;  /* 538px /988px = 54.4534 */
+         float: left;
+    }
+    .headerrightcol{
+         width: 20.2429%;  /* 200px /988px = 02.2429 */
+         float: left;
     }
     #logon{
         z-index:9999;
@@ -242,28 +256,20 @@ and (orientation : portrait) {
         height:60px;
     }
     #topboxheader{
-       
         margin-right:0%;
-        margin-top:5%;
-        height:80px;
-        font-size:1.0em;
+        margin-top:2%;
+        margin-bottom:2%;
+        margin-left:2%;
+        height:80px;          
     }
-    #topboxheader h1{
-        font-size:1.3em;
+    #topboxheader h1{        
         margin-bottom:6px;
+         font-size: 1.6em;
     }
     #topboxheader p{
         margin-top:6px;
+         font-size: 1.2em;
     }
-    @media only screen and (min-width :580px )and (max-width : 750px)
-    {
-        #topboxheader{
-            width:45%;
-            height:100px;
-        }
-    }
-
-    
     #menyn ul{
         width:80.16%;
         float:right;       
@@ -333,8 +339,8 @@ and (orientation : portrait) {
      .userDisplayName {
         display:none;
     }
-    .loginGroup{margin-left:10%}
-    .SearchBorder{ display:none;}
+    .loginGroup{display:none;}
+    .SearchBorder{ }
     
 }
 
@@ -342,42 +348,48 @@ and (orientation : portrait) {
 @media only screen and (min-width : 800px){
  
      body{    
-         margin: 0px;
+        margin: 0px;
         padding: 0px;
         margin: 0px auto;
         padding: 0 0.55em;
         max-width: 64.857em;      /* 908px / 14px = 64.857em */       
-        __background-color:#ffd800;
+        background-color:#ffd800;
+    }
+    .headerleftcol{
+         width: 25.3036%;  /* 250px /988px = 25.3036 */
+         float: left;
     }
 
+    .headermaincol{
+         width: 54.4534%;  /* 538px /988px = 54.4534 */
+         float: left;
+    }
+    .headerrightcol{
+         width: 20.2429%;  /* 200px /988px = 02.2429 */
+         float: left;
+    }
     #logon{
         z-index:9999;
         padding-left:2.5%; /* 3.57%*/       
         height:80px;
     }
-    #topboxheader{       
-        margin-right:0%;
-        margin-top:3%;
-        height:95px;
-        font-size:0.90em;
+    #topboxheader{    
+         margin-left:0;   
+        margin-right:0;
+        margin-top:2%;
+        height:85px;
+        
     }
-    #topboxheader h1{
-    font-size:1.1em;
+    #topboxheader h1{    
         margin-bottom:6px;
+        font-size: 2.0em;
     }
+    
     #topboxheader p{
         margin-top:6px;
+        font-size: 1.3em;
     }
-    @media only screen and (min-width : 800px)
-    {
-        #topboxheader{        
-            font-size:0.8em;                  
-        }
-        #topboxheader h1{
-            font-size:1.4em;        
-        }    
-    }
-       
+   
     #flexmenu {
 		display:block;
 	}	
@@ -454,7 +466,10 @@ and (orientation : portrait) {
     .userDisplayName {
         display:block;
     }
-    .loginGroup{margin-left:5%}
+    .loginGroup{
+        margin-left:5%;
+        display:block;
+    }
     .SearchBorder{ display:block;}
 }
 
@@ -467,22 +482,33 @@ and (orientation : portrait) {
         margin: 0px auto;
         padding: 0 1.15em;
         max-width: 72.857em; /* 988px / 14px = 70.571em */
-       __background-color: #ccc;
+       background-color: #ccc;/*grå*/
+    }
+    .headerleftcol{
+         width: 25.3036%;  /* 250px /988px = 25.3036 */
+         float: left;
     }
 
+    .headermaincol{
+         width: 54.4534%;  /* 538px /988px = 54.4534 */
+         float: left;
+    }
+    .headerrightcol{
+         width: 20.2429%;  /* 200px /988px = 02.2429 */
+         float: left;
+    }
     #logon{
         z-index: 9999;
         padding-left: 2.7%; /* 3.57%*/       
         height: 100px;       
     }
-    
+
     #topboxheader{        
         margin-right:0%;
         margin-top:3%;
-        height:80px;
-        font-size:1.1em;
+        height:80px;        
     }
-    #topboxheader h1{    
+    #topboxheader h1{   
         margin-bottom:6px;
     }
     #topboxheader p{
@@ -490,10 +516,9 @@ and (orientation : portrait) {
     }   
     
     @media only screen and (min-width : 970px){
-        #topboxheader{        
-            
-            margin-top:4%;            
-            font-size:1.2em;            
+        #topboxheader{ 
+            margin-top:2%;
+            margin-bottom:2%;            
         }
         #topboxheader h1{            
             margin-bottom:6px;
@@ -600,16 +625,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
  
-    .headerleftcol{
-         width: 25.3036%;  /* 250px /988px = 25.3036 */
-         float: left;
-    }
-
-    .headermaincol{
-         width: 54.4534%;  /* 538px /988px = 54.4534 */
-         float: left;
-    }
-    .headerrightcol{
-         width: 20.2429%;  /* 200px /988px = 02.2429 */
-         float: left;
-    }
+   
+#logginBlock{
+	float:right;
+}
+#SearchIcon{
+    display:none;
+}

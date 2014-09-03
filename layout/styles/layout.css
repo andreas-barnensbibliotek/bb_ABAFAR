@@ -188,19 +188,19 @@ h6{
     margin: 0px 0px 4px;
 }
 .item h1{
-    font-size: 2.3em;
+    font-size: 2.0em;
     margin: 0px 0px 10px;
 }
 .item h2{
-    font-size: 2.0em;
+    font-size: 1.8em;
     margin: 0px 0px 8px;
 }
 .item h3{
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin: 0px 0px 6px;
 }
 .item h4{
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 0px 0px 4px;
 }
 .item h5{
@@ -212,7 +212,7 @@ h6{
     margin: 0px 0px 4px;
 }
 .item p{
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin: 0px 0px 6px;
 }
 .item ul, .item ol {
@@ -712,7 +712,7 @@ background-color:transparent;
 
 .registerGroup, .loginGroup {
      float: right;
-     margin-left: 10px;
+     margin-left: 2px;
      margin-top: 0px;
 }
 

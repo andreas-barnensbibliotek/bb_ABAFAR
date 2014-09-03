@@ -35,38 +35,28 @@
 
 <div id="maincontainer">
     <div class="wrapper row1">
-        <div id="logon" class="one_quarter first">
-             <img id="logoimg" src= "images/bblogo.png" runat="server" />        
+        <div id="logon" class="headerleftcol">
+             <img id="logoimg" src= "images/bblogo2.png" runat="server" />        
         </div>
-        <div id="topboxheader" class="two_quarter">
+        <div id="topboxheader" class="headermaincol">
             <span id="topheader">
                 <span id="HeaderPane" runat="server"></span>
-                &nbsp;
-            </span>            
+               
+            </span>
+            <div>&nbsp;</div>           
         </div>    
-        <div id="logginBlock" class="one_quarter">
-          <dnn:USER ID="USER1" CssClass="userbox" runat="server" Text="Registrera" LegacyMode="false" />
-          <dnn:LOGIN ID="LOGIN2" CssClass="loginbox" runat="server" Text="Logga in" LegacyMode="false" /> 
-            <span id="searchboxen">
-          <dnn:SEARCH runat="server" id="dnnSEARCH" CssClass="ServerSkinWidget" UseDropDownList="true" Submit="<img src=http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/zoom.png border=&quot;0&quot; alt=&quot;Search&quot; /&gt;" />
-          </span>                              
-                        
+        <div class="headerrightcol">
+            <div id="logginBlock">
+            
+              <dnn:USER ID="USER1" CssClass="userbox" runat="server" Text="Bli medlem" LegacyMode="false" />
+              <dnn:LOGIN ID="LOGIN2" CssClass="loginbox" runat="server" Text="Logga in" LegacyMode="false" /> 
+              <span id="searchboxen">
+              <dnn:SEARCH runat="server" id="dnnSEARCH" CssClass="ServerSkinWidget" UseDropDownList="true" Submit="<img src=http://www.barnensbibliotek.se/Portals/0/Skins/nydesigntest/images/zoom.png border=&quot;0&quot; alt=&quot;Search&quot; /&gt;" />
+              </span>                                                     
+            </div>
         </div>         
         <div>&nbsp;</div>
-
-
-        <%--<div id="logginBlock">
-          <dnn:USER ID="USER1" CssClass="userbox" runat="server" LegacyMode="false" />
-          <dnn:LOGIN ID="LOGIN1" CssClass="loginbox" runat="server" LegacyMode="false" />
-          </div> 
-        <div id="logon">
-            <img id="logoimg" src= "images/bblogo.png" runat="server" />
-            <div id="topboxheader"> 
-                <span id="HeaderPane" runat="server"></span>
-                <a id="topheaderbooktip" href="" ><h1>Julie Cordelia tipsar om: Den sista utvägen</h1>
-                <p>"Boken handlar om tonårsflickan Julie. Hennes mamma..." Läs mer</p></a>    
-            </div>
-        </div>--%>
+        
     </div>
 <!-- ################################################################################################ -->
     <div class="wrapper row2">
@@ -128,6 +118,7 @@
   </div>
 </div>
 <!-- AJSHAREBOX WIDGET -->
+
 <fortyfingers:STYLEHELPER ID="AJShareboxCss" AddCssFile="../../../../DesktopModules/ajSharebox/ajSharebox.css" runat="server" />
 <fortyfingers:STYLEHELPER ID="AJShareboxJs"  AddJsFile="../../../../DesktopModules/ajSharebox/ajSharebox.js" runat="server" />
 <div class="Ajshare_box">
