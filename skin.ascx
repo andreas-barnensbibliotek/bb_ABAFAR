@@ -110,7 +110,7 @@
 
 <div id="licbox" class="wrapper row4">
   <div id="copyright" class="clear">
-    <p class="fl_left">Copyright &copy; 2013 - All Rights Reserved - <a href="#">barnensbibliotek.se.se</a></p>
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">barnensbibliotek.se</a></p>
     <p class="fl_right">        
         <span style="display:none;"> by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></span>
     </p>
