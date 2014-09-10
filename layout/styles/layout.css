@@ -4,7 +4,7 @@ html {
 
 body {
      background-color: #44B4C6;
-     color: #919191;
+     color: #000;
 }
 
 body.boxed {
@@ -152,12 +152,12 @@ div.wrapper, .wrapper100 {
 }
 
 body {
-     font-family: Verdana,Arial,Helvetica,sans-serif;
+     font-family:Verdana,Arial,Helvetica,sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
      /*font-family: "CaviarDreamsBold",Arial,Helvetica,sans-serif;*/
-     font-family: Verdana,Arial,Helvetica,sans-serif;         
+     font-family: "Lato",Verdana,Arial,Helvetica,sans-serif;         
      font-weight: normal;
      line-height: normal;
      
@@ -165,62 +165,63 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1{
     font-size: 1.3em;
-    margin: 0px 0px 10px;
+    margin: 0px 0px 4px;
 }
 h2{
     font-size: 1.2em;
-    margin: 0px 0px 8px;
+    margin: 0px 0px 3px;
 }
 h3{
     font-size: 1.1em;
-    margin: 0px 0px 6px;
+    margin: 0px 0px 2px;
 }
 h4{
     font-size: 1.0em;
-    margin: 0px 0px 4px;
+    margin: 0px 0px 2px;
 }
 h5{
     font-size: 0.9em;
-    margin: 0px 0px 4px;
+    margin: 0px 0px 2px;
 }
 h6{
     font-size: 0.85em;
-    margin: 0px 0px 4px;
+    margin: 0px 0px 2px;
 }
 .item h1{
-    font-size: 2.0em;
-    margin: 0px 0px 10px;
+    font-size: 1.8em;
+    margin: 0px 0px 4px;
 }
 .item h2{
-    font-size: 1.8em;
-    margin: 0px 0px 8px;
+    font-size: 1.6em;
+    margin: 0px 0px 3px;
 }
 .item h3{
-    font-size: 1.6em;
-    margin: 0px 0px 6px;
+    font-size: 1.4em;
+    margin: 0px 0px 2px;
 }
 .item h4{
-    font-size: 1.4em;
-    margin: 0px 0px 4px;
+    font-size: 1.2em;
+    margin: 0px 0px 2px;
 }
 .item h5{
-    font-size: 1.2em;
-    margin: 0px 0px 4px;
+    font-size: 1.1em;
+    margin: 0px 0px 2px;
 }
 .item h6{
     font-size: 1.0em;
-    margin: 0px 0px 4px;
+    margin: 0px 0px 2px;
 }
 .item p{
     font-size: 1.4em;
-    margin: 0px 0px 6px;
+    margin: 0px 0px 2px;
 }
 .item ul, .item ol {
    font-size: 1.2em;
    font-style:normal;
+   list-style-image:url("http://appelhyllan.se/barnensbibliotekdev/Portals/_default/Skins/bb_BALNAB/layout/styles/images/arrow.gif");
 }
 #topboxheader h1{
-    font-family: "Ubuntu",Arial,Helvetica,sans-serif;
+    font-family: "Lato",Verdana,Arial,Helvetica,sans-serif;
     color:#F7941E;
     font-style:italic;
     font-size: 2.0em;
@@ -247,7 +248,7 @@ h6{
     margin: 0px 0px 4px;
 }
 #topboxheader p{
-     font-family: "Ubuntu",Arial,Helvetica,sans-serif;
+     font-family: "Merriweather",Arial,Helvetica,sans-serif;
     font-style:normal;
     font-size: 1.4em;
     margin: 0px 0px 6px;
@@ -499,11 +500,11 @@ background-color:transparent;
      position: relative;
 }
 #topnav #menyn ul li:hover > a {
-     background-color: #FFF200;
+     background-color: #F7941E;
      color: #000;
 }
 #topnav #menyn ul li.active{
-     background-color: #FFF200;
+     background-color: #F7941E;
      color: #000;
 }
 
@@ -543,7 +544,7 @@ background-color:transparent;
 
 #topnav #menyn a {
      background-color: #232323;
-     color: #C0BAB6;
+     color: #fff;
      font-weight: bold;
 }
 
@@ -554,12 +555,12 @@ background-color:transparent;
 }
 
 #topnav #menyn li.active a, #topnav #menyn a:hover {
-     background-color: #FFF200;
+     background-color: #F7941E;
      color: #000;
 }
 
 #topnav #menyn ul li li:hover > a {
-     background-color: #FFF200;
+     background-color: #F7941E;
      color: #000;
 }
 

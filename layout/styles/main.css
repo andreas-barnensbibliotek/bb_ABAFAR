@@ -13,6 +13,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 @import url(fonts/caviardreams/stylesheet.css);
 @import url(fonts/ubuntu/stylesheet.css);
 @import url(fonts/font-awesome/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Lato|Merriweather|Merriweather+Sans);
 
 /* If you want to add your own css code, please do it in the custom.css file */
 @import url(custom.css);

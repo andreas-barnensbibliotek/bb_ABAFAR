@@ -125,8 +125,15 @@
     <ul></ul>
 </div>
 <span id="barnensbiblCurrentUserid"><%=UserController.GetCurrentUserInfo().UserID%></span>
+<fortyfingers:STYLEHELPER ID="STYLEHELPER3" AddJsFile="layout/scripts/packery-mode.pkgd.min.js" runat="server" />
 <fortyfingers:STYLEHELPER ID="scriptmobile" AddJsFile="layout/scripts/jquery.slicknav.min.js" runat="server" />
 <fortyfingers:STYLEHELPER ID="addcustomjs" AddJsFile="layout/scripts/custom.js" runat="server" />
-<script>jQuery(document).ready(function ($) { $('img').removeAttr('width height'); });</script>
+<script>jQuery(document).ready(function ($) {
+$('img').removeAttr('width height');
+$('.isotope').isotope({
+    layoutMode: 'packery',
+    itemSelector: '.item'
+});
+});</script>
 
 
